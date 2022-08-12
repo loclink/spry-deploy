@@ -1,6 +1,6 @@
 
 
-## MihuDeploy v1.0.0
+## SpryDeploy v1.0.0
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com)![image](https://tvax2.sinaimg.cn/large/0087ufIQgy1h2rjcjd1q3j306z00zglk.jpg)
 
@@ -10,19 +10,8 @@ MihuDeploy 是一款为 github、gitee 所提供的轻量级 webhooks 服务，�
 
 ### 二、依赖：
 
-1. 项目运行环境需依赖 nodejs，centos 如何搭建 node 运行环境：
+1. 项目运行环境需依赖 nodejs 
 
-   ```shell
-   dnf install nodejs
-   npm install n -g
-   n install lts
-   n install latest
-   n
-   ```
-
-   ![image](https://tva4.sinaimg.cn/large/0087ufIQgy1h2qc31y5xcj30i302vgm7.jpg)
-
-   选择 16.15.0 后回车，之后输入`node -v`查看版本号是否切换成功。
 
 2. 安装 pm2 管理器，pm2 是 nodejs 的高级生产流程管理器，详情查看：[pm2](https://pm2.keymetrics.io/)
 
@@ -31,6 +20,7 @@ MihuDeploy 是一款为 github、gitee 所提供的轻量级 webhooks 服务，�
    ii. 执行`pm2 -v`查看是否安装成功
 
    ![image](https://tvax3.sinaimg.cn/large/0087ufIQgy1h2qczvzvi7j306w00wmx6.jpg)
+
 
 ### 三、部署项目：
 
