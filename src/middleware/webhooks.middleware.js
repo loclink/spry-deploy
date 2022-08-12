@@ -35,7 +35,6 @@ class WebHooksMiddleware {
 
     ctx.request.body._repositoryName = repositoryName;
 
-    console.log(ctx.request.body);
     await next();
   }
 }
