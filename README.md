@@ -34,7 +34,7 @@ MihuDeploy 是一款为 github、gitee 所提供的轻量级 webhooks 服务，�
 
 4. 配置文件描述说明：
 
-   ```javascript
+   ``` js
    module.exports = {
      port: 6666, // port:Number webhooks服务启动端口，默认为7777，非必填
      password: "123456", // password:String webhooks校验密码，必填
@@ -49,7 +49,7 @@ MihuDeploy 是一款为 github、gitee 所提供的轻量级 webhooks 服务，�
      // 值为该仓库在服务器中的工作路径，即：仓库名如果为demo1。
      // 那么在接收到该仓库的webhooks请求之后则会找到对应的工作路径，并在这个工作路径下执行libPath下与之同名的shell脚本。
      workPathMap: {
-       // 键（需要监听的git仓库名）:值（该仓库（项目）对应服务器的所在路径）
+        // 键:需要监听的git仓库名;  值:项目对应服务器的所在的绝对路径
        mihu_cms: "/codermihu/mihu_project_source/mihu_cms",
        // more...
      },
